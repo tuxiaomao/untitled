@@ -1,0 +1,12 @@
+class Person(object):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def run(self):
+        print(self.name + "跑起来了。")
+
+    def eat(self, food):
+        print(self.name + "吃" + food +"呢。")
+
+
